@@ -1,0 +1,28 @@
+//package main
+//
+//import (
+//	"bufio"
+//	"fmt"
+//	"io"
+//	"os"
+//)
+//
+//func main() {
+//	file, err := os.Open("file/test.txt")
+//	defer file.Close()
+//	if err != nil {
+//		println(err.Error())
+//	}
+//	println(file.Name())
+//
+//	reader := bufio.NewReader(file)
+//
+//	for true {
+//		readString, err := reader.ReadString('\n')
+//		if err == io.EOF {
+//			break
+//		}
+//
+//		fmt.Println(readString)
+//	}
+//}
