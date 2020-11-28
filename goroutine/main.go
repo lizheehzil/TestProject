@@ -18,7 +18,7 @@ func sayHello() {
 
 func main() {
 	go sayHello()
-	println(runtime.GOMAXPROCS(0))
+	fmt.Printf("GOMAXPROCS Value is:%v\n", runtime.GOMAXPROCS(0))
 
 	time.Sleep(time.Second * 5)
 	//
