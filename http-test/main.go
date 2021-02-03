@@ -9,9 +9,10 @@ import (
 
 func main() {
 	fmt.Println("Please visit http://127.0.0.1:12345")
+
 	http.HandleFunc("/", func(writer http.ResponseWriter, request *http.Request) {
 		s := fmt.Sprintln("你好世界! -- Time:%s", time.Now().String())
-		fmt.Fprintln(writer, "%v\n", s)
+		_, _ = fmt.Fprintln(writer, s)
 		log.Printf("%v\n", s)
 
 	})

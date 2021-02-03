@@ -15,13 +15,17 @@ func main() {
 	}
 
 	data, err := json.Marshal(person1)
-	if err == nil {
-		fmt.Println(string(data))
-
-		person2 := person.Person{}
-		json.Unmarshal(data, &person2)
-		fmt.Println(person2.Name, person2.Age, person2.Des)
+	if err != nil {
+		fmt.Println("err", err)
 	}
+	fmt.Println(string(data))
+
+	person2 := person.Person{}
+	err = json.Unmarshal(data, &person2)
+	if err != nil {
+		fmt.Println("err", err)
+	}
+	fmt.Println(person2.Name, person2.Age, person2.Des)
 
 	println()
 

@@ -1,2 +1,6 @@
 github.com/imroc/biu v0.0.0-20170329141542-0376ce6761c0 h1:pkyNAS9IQiZgseFrdhZC4cloBo2k2O2Son/k+3NquwY=
 github.com/imroc/biu v0.0.0-20170329141542-0376ce6761c0/go.mod h1:wscexmyH+oDXfQr1q8PAZUXfKnxCUcNm62D/M5Ec8Lw=
+github.com/nicklaw5/go-respond v0.0.0-20190722175312-54f5cd3d2246 h1:ESHjIUavN4b2za7dtb445z5zuGRR8shYhQGeVxbF/eI=
+github.com/nicklaw5/go-respond v0.0.0-20190722175312-54f5cd3d2246/go.mod h1:VoIe3N+7d/nBCnc0Pzv5ty0k5S755kcwK1RBNF4UJ/g=
+github.com/ozgio/strutil v0.3.0 h1:60gAF16tu4v0jv8lG++6BSRjtEAUZHWCUdBVnP9sPV8=
+github.com/ozgio/strutil v0.3.0/go.mod h1:KwdrJYF4j4XOlgE0RGzXCa5wRvbuYXpfy3379Yl3Ric=
